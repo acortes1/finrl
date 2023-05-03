@@ -2,6 +2,57 @@ from __future__ import annotations
 
 SINGLE_TICKER = ["AAPL"]
 
+
+# Autogpt generated
+AUTOGPT_TICKER = [
+   "AAPL",
+"MSFT",
+"AMZN",
+"GOOG",
+"FB",
+"TSLA",
+"NVDA",
+"JPM",
+"JNJ",
+"V",
+"MA",
+"PYPL",
+"ADBE",
+"NFLX",
+"CSCO",
+"DIS",
+"HD",
+"CRM",
+"UNH",
+"MCD",
+"GS",
+"CAT",
+"MMM",
+"BA",
+"KO",
+"VZ",
+"WMT",
+"MRK",
+"PFE",
+"NKE",
+"ORCL",
+"CRM",
+"XOM",
+"INTC",
+"AVGO",
+"TXN",
+"BAC",
+"CMCSA",
+"SBUX",
+"GILD",
+"AMD",
+"ABT",
+"COST",
+"C",
+"HON",
+"FOX",
+"IBM",
+]
 # Dow 30 constituents in 2021/10
 # check https://wrds-www.wharton.upenn.edu/ for U.S. index constituents
 DOW_30_TICKER = [
