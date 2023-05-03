@@ -53,6 +53,7 @@ AUTOGPT_TICKER = [
 "FOX",
 "IBM",
 ]
+
 # Dow 30 constituents in 2021/10
 # check https://wrds-www.wharton.upenn.edu/ for U.S. index constituents
 DOW_30_TICKER = [
