@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import gym
+import gymnasium as gym
 import numpy as np
 from numpy import random as rd
 
@@ -13,8 +13,8 @@ class StockTradingEnv(gym.Env):
         gamma=0.99,
         turbulence_thresh=99,
         min_stock_rate=0.1,
-        max_stock=1e2,
-        initial_capital=1e6,
+        max_stock=3,
+        initial_capital=2000,
         buy_cost_pct=1e-3,
         sell_cost_pct=1e-3,
         reward_scaling=2**-11,
