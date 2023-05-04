@@ -2,13 +2,13 @@ from __future__ import annotations
 
 from typing import List
 
-import gym
+import gymnasium as gym
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from gym import spaces
-from gym.utils import seeding
+from gymnasium import spaces
+from gymnasium.utils import seeding
 from stable_baselines3.common.vec_env import DummyVecEnv
 
 matplotlib.use("Agg")
